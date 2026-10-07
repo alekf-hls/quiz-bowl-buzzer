@@ -16,33 +16,33 @@ team_num   = "1";          // large number on the lid ("" for none)
 // ---- Inside cavity ----
 X = 146;  // width (along the jacks)
 Y = 96;   // depth
-Z = 56;   // height, floor to lid underside: the 60 mm team button hangs ~52 mm below the lid
+Z = 45;   // height, floor to lid underside
 
 // ---- Player jacks (3.5 mm TRRS panel jack with M6 nut) ----
 jacks       = 8;
 jack_pitch  = 14;
-jack_hole   = 6.3;
+jack_hole   = 6.2;
 jack_z      = 15;
 jack_labels = true;   // debossed seat numbers below each jack
 
 // ---- Player lights (PL9823 5 mm RGB LED, pushed in from inside, one above each jack) ----
-light_hole = 5.2;
+light_hole = 5.1;
 light_z    = 28;      // keep below the lid lip (Z - lip_h)
 
-// ---- Team button (60 mm arcade button with LED, 28-30 mm mounting hole) ----
+// ---- Team button (30 mm snap-in arcade button, ~33 mm bezel, ~35 mm below the lid) ----
 team_button   = true;
-team_btn_hole = 29;
-team_btn_pos  = [112, 50];        // the area under it is kept clear down to the floor
+team_btn_hole = 30;               // some are 28 mm
+team_btn_pos  = [112, 52];        // the area under it is kept clear
 
 // ---- Carrier protoboard (ESP32 DevKitC + ULN2803 soldered/socketed on it) ----
 // Sits on tall standoffs with the 18650 holder underneath it.
 pcb_w = 90; pcb_d = 70;           // standard 70 x 90 mm protoboard
 pcb_x = 2;  pcb_y = Y - 1 - pcb_d;
-standoff_h = 25;
+standoff_h = 23;
 
 // ESP32 DevKitC (38-pin, ~55 x 28 mm) on female headers, micro-USB facing the back wall
 esp_usb_x = pcb_x + 20;           // USB centre along the back wall
-esp_usb_z = 38;                   // floor + standoff + board + header + DevKitC
+esp_usb_z = 36;                   // floor + standoff + board + header + DevKitC
 esp_usb_w = 12; esp_usb_h = 8;    // room for a micro-USB plug overmold
 
 // ---- 18650 holder (single cell, ~77 x 21 x 19 mm), under the protoboard, long axis front-to-back ----
@@ -50,14 +50,16 @@ batt      = true;
 batt_w = 21; batt_d = 78;
 batt_x = 36; batt_y = Y - 1 - batt_d;
 
-// ---- IP5306 USB-C charge/boost board (~26 x 21 mm assumed), USB-C facing the back wall ----
-chg_w = 21.5; chg_d = 26;
-chg_x = 121; chg_y = Y - 0.5 - chg_d;
+// ---- USB-C UPS board (charger + 5 V boost with pass-through, ~30 x 25 mm), USB-C facing the back wall ----
+// Runs the station from a USB-C wall charger and charges the 18650 at the same time.
+chg_w = 25; chg_d = 30;
+chg_x = 117; chg_y = Y - 0.5 - chg_d;
+chg_led = true;                   // 3 mm window beside the USB-C for the board's charge LED
 chg_pad = 2;
 chg_usb_z = chg_pad + 3.2;
 chg_usb_w = 12; chg_usb_h = 7;
 
-// ---- Power rocker switch (KCD11 mini, 19 x 13 mm cut-out) on the right wall ----
+// ---- Slide power switch (~12 x 6 mm body, 8.5 x 4 mm slot) on the right wall ----
 sw_y = 45; sw_z = 24;
 
 // ---- Lid ----
@@ -77,7 +79,8 @@ module station_box() {
         cut_back(Y, esp_usb_x, esp_usb_z, esp_usb_w, esp_usb_h);
         if (batt) {
             cut_back(Y, chg_x + chg_w / 2, chg_usb_z, chg_usb_w, chg_usb_h);
-            rocker_right(X, sw_y, sw_z);
+            if (chg_led) hole_back(Y, chg_x + chg_w / 2 - 11, chg_usb_z, 3);
+            slide_right(X, sw_y, sw_z);
         }
     }
     pcb_standoffs(pcb_x, pcb_y, pcb_w, pcb_d, h = standoff_h, od = 6);
@@ -91,6 +94,7 @@ module station_lid() {
     lid(X, Y, Z) {
         if (lid_led) translate([led_pos[0], led_pos[1], Z - lip_h - 1]) cylinder(d = led_hole, h = lid_t + lip_h + 2);
         if (team_button) translate([team_btn_pos[0], team_btn_pos[1], Z - 1]) cylinder(d = team_btn_hole, h = lid_t + 2);
+        if (team_button) lid_text(Z, team_btn_pos[0], team_btn_pos[1] - 24, "TEAM", 6);
         text_x = team_button ? 46 : X / 2;   // shift the text left to make room for the button
         if (team_num != "") lid_text(Z, text_x, Y / 2 + 10, team_num, 34);
         lid_text(Z, text_x, 18, team_label, 9);

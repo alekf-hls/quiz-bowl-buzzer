@@ -102,7 +102,7 @@ module retainer(x0, y0, w, d, h = 4, t = 1.6, clear = 0.4, open_side = "") {
     }
 }
 
-// Raised pad with rails for a TP4056 USB-C charger module.
+// Raised pad with rails for a USB-C charger / UPS board.
 module charger_pad(x0, y0, w, d, pad = 2, open_side = "+y") {
     translate([x0 - 2, y0 - 2, 0]) cube([w + 4, d + 4, pad]);
     translate([0, 0, pad]) retainer(x0, y0, w, d, h = 2.5, open_side = open_side);
@@ -123,6 +123,18 @@ module rocker_right(X, y, z, w = 19.2, h = 13.0, panel = 1.6) {
     cut_right(X, y, z, w, h);
     translate([X - 0.01, y - w / 2 - 3, z - h / 2 - 3])
         cube([wall - panel + 0.01, w + 6, h + 6]);
+}
+
+// Slide power switch in the right wall: slot for the actuator plus two M2 screw
+// holes either side (typical 12 x 6 mm body, screw holes 15 mm apart).
+module slide_right(X, y, z, slot = [8.5, 4.2], screw_pitch = 15, screw_d = 2.2) {
+    cut_right(X, y, z, slot[0] + 0.4, slot[1] + 0.4);
+    for (s = [-1, 1]) translate([X - 1, y + s * screw_pitch / 2, z]) rotate([0, 90, 0]) cylinder(d = screw_d, h = wall + 2);
+}
+
+// Small round window in the back wall (y = Y), e.g. for a charge LED.
+module hole_back(Y, x, z, d = 3) {
+    translate([x, Y - 1, z]) rotate([-90, 0, 0]) cylinder(d = d, h = wall + 2);
 }
 
 // Debossed text on the front outer wall face (y = -wall), centred at (x, z).

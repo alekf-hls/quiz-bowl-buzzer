@@ -27,7 +27,7 @@ btn_label_y = 12;
 
 // ---- Team lights (PL9823 5 mm RGB LED, one per team station), numbered 1-n ----
 teams       = 4;
-light_hole  = 5.2;
+light_hole  = 5.1;
 light_pitch = 28;
 light_y     = 62;
 light_label_y = 71;
@@ -37,7 +37,7 @@ light_label_y = 71;
 oled_center = [X / 2, 93];       // centre of the visible window
 oled_win    = [31, 17];          // window (active area is ~29.4 x 14.7)
 oled_pcb    = [35.4, 33.5];
-oled_holes  = [30.4, 28.5];      // M2 hole spacing on the module
+oled_holes  = [30.5, 28.5];      // M2 hole spacing on the module
 oled_pcb_dy = 1.5;               // PCB centre offset from window centre (+y = toward back)
 oled_glass_t = 3.2;              // standoff height: glass + tape, so the glass sits just under the lid
 
@@ -60,11 +60,11 @@ esp_usb_x = pcb_x + 20;
 esp_usb_z = 18;
 esp_usb_w = 24; esp_usb_h = 8;   // the S3 DevKitC has two USB-C ports side by side
 
-// ---- Optional 18650 + IP5306 charge/boost board (set batt = false to run from USB only) ----
+// ---- 18650 + USB-C UPS board: runs from battery or a USB-C wall charger (batt = false: USB only) ----
 batt = true;
 batt_w = 78; batt_d = 21;               // holder lies along the back wall
 batt_x = X - 1 - batt_w; batt_y = Y - 1 - batt_d;
-chg_w = 26; chg_d = 21.5;               // IP5306 board along x, USB-C facing the right wall
+chg_w = 30; chg_d = 25;                 // UPS board (~30 x 25 mm) along x, USB-C facing the right wall
 chg_x = X - 0.5 - chg_w; chg_y = 64;
 chg_pad = 2;
 chg_usb_z = chg_pad + 3.2;
@@ -81,7 +81,8 @@ module base_box() {
         cut_back(Y, esp_usb_x, esp_usb_z, esp_usb_w, esp_usb_h);
         if (batt) {
             cut_right(X, chg_y + chg_d / 2, chg_usb_z, 12, 7);
-            rocker_right(X, sw_y, sw_z);
+            translate([X - 1, chg_y + chg_d / 2 + 11, chg_usb_z]) rotate([0, 90, 0]) cylinder(d = 3, h = wall + 2);  // charge LED window
+            slide_right(X, sw_y, sw_z);
         }
     }
     pcb_standoffs(pcb_x, pcb_y, pcb_w, pcb_d, h = standoff_h);
