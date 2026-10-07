@@ -1,0 +1,381 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1410" height="1120" viewBox="0 0 1410 1120" font-family="Helvetica, Arial, sans-serif" xmlns:c2pa="http://c2pa.org/manifest"><metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYTo3MzMyODRmMy05OTliLTQxZDQtOWQ0Yy04YjUyNWViODhhNzUAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaOBpOCUMciQ/Av2zKIXEK0IAAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDoxYzAwOTBlMS1iYjFiLTRjNmMtOWQ4Mi01YTMxZmFjYmI4NWRscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNoB2ij0znqUUc+IqlGeuMt+gAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFggq10wN0LbQwHT4o29jDqBtHWYV/hjUWgojuPGP+n9OfCkZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaFk7sTMSNVV4YQJjA/19xLgAAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRNAAAAAAAAAAAAAAAAAGRoYXNoWCD0GZ1PVXc7WyISiP230915d9D66GSi/uYJPtAAhS8gs2RuYW1lbmp1bWJmIG1hbmlmZXN0amV4Y2x1c2lvbnOBomVzdGFydBjFZmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOjczMzI4NGYzLTk5OWItNDFkNC05ZDRjLThiNTI1ZWI4OGE3NS9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOjA3YTY0ZjI3LTU1YzktNDJmMC04Nzk3LWZkZWJiNTVjY2RiNHJjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCCrXTA3QttDAdPijb2MOoG0dZhX+GNRaCiO48Y/6f058KJjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFggS2TFTxSToRE7HKv1s7tEGpdyOp/NehunwqkSBxHd8NWiY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFggHq02qkgogANTlgJa19vP1uiKiVF7M4SGe6lgrKsNftd0Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQDYlPGmFiRgL7+2LejqZhxHb5xrG3EjEshfQEWXg+oAon3TPaNh/EAkqGPHK173N5cJKLK6mCd3wP79nTJFPeIg=</c2pa:manifest></metadata>
+<rect x="0" y="0" width="1410" height="1120" rx="0" fill="#ffffff" stroke="#ffffff" stroke-width="1.5"/>
+<text x="30" y="40" font-size="22" text-anchor="start" font-weight="bold" fill="#222">Quiz Bowl Buzzer: wiring diagram (team station design, v3)</text>
+<text x="30" y="64" font-size="12" text-anchor="start" font-weight="normal" fill="#555">Jack 1 is drawn in full; jacks 2-8 wire the same way using the pin map. All grounds are common. Dots mark joins; crossing wires without a dot are not connected.</text>
+<polyline points="30,88 56,88" fill="none" stroke="#1f6fd1" stroke-width="3" stroke-linejoin="round"/>
+<text x="62" y="92" font-size="12" text-anchor="start" font-weight="normal" fill="#222">Signal</text>
+<polyline points="215,88 241,88" fill="none" stroke="#d62828" stroke-width="3" stroke-linejoin="round"/>
+<text x="247" y="92" font-size="12" text-anchor="start" font-weight="normal" fill="#222">+5 V</text>
+<polyline points="400,88 426,88" fill="none" stroke="#e08a00" stroke-width="3" stroke-linejoin="round"/>
+<text x="432" y="92" font-size="12" text-anchor="start" font-weight="normal" fill="#222">LED return (to driver)</text>
+<polyline points="585,88 611,88" fill="none" stroke="#222" stroke-width="3" stroke-linejoin="round"/>
+<text x="617" y="92" font-size="12" text-anchor="start" font-weight="normal" fill="#222">Ground</text>
+<polyline points="770,88 796,88" fill="none" stroke="#7a5cc2" stroke-width="3" stroke-linejoin="round"/>
+<text x="802" y="92" font-size="12" text-anchor="start" font-weight="normal" fill="#222">Battery sense</text>
+<polyline points="955,88 981,88" fill="none" stroke="#2a9d8f" stroke-width="3" stroke-dasharray="6 4" stroke-linejoin="round"/>
+<text x="987" y="92" font-size="12" text-anchor="start" font-weight="normal" fill="#222">Radio link</text>
+<rect x="20" y="110" width="340" height="660" rx="8" fill="#fafafa" stroke="#bbb" stroke-width="1.5"/>
+<text x="40" y="138" font-size="16" text-anchor="start" font-weight="bold" fill="#222">A. Player button (x8 per team)</text>
+<rect x="70" y="165" width="200" height="180" rx="8" fill="#fff" stroke="#333" stroke-width="1.5"/>
+<text x="170" y="187" font-size="12" text-anchor="middle" font-weight="bold" fill="#222">60 mm arcade button</text>
+<text x="170" y="203" font-size="11" text-anchor="middle" font-weight="normal" fill="#666">with built-in 5 V LED</text>
+<circle cx="170" cy="262" r="40" fill="#f4d35e" stroke="#333" stroke-width="1.5"/>
+<text x="170" y="267" font-size="12" text-anchor="middle" font-weight="bold" fill="#222">PUSH</text>
+<rect x="92" y="345" width="16" height="12" fill="#ccc" stroke="#333"/>
+<text x="100" y="372" font-size="10" text-anchor="middle" font-weight="normal" fill="#222">NO</text>
+<rect x="139" y="345" width="16" height="12" fill="#ccc" stroke="#333"/>
+<text x="147" y="372" font-size="10" text-anchor="middle" font-weight="normal" fill="#222">LED+</text>
+<rect x="186" y="345" width="16" height="12" fill="#ccc" stroke="#333"/>
+<text x="194" y="372" font-size="10" text-anchor="middle" font-weight="normal" fill="#222">LED−</text>
+<rect x="233" y="345" width="16" height="12" fill="#ccc" stroke="#333"/>
+<text x="241" y="372" font-size="10" text-anchor="middle" font-weight="normal" fill="#222">COM</text>
+<text x="40" y="545" font-size="13" text-anchor="start" font-weight="bold" fill="#222">4-conductor 3.5 mm plug (TRRS)</text>
+<text x="40" y="562" font-size="11" text-anchor="start" font-weight="normal" fill="#666">on a 2 m headset-style cable</text>
+<path d="M 60 480 L 330 480 L 330 510 L 60 510 Z" fill="#ddd" stroke="#333"/>
+<polyline points="100,357 100,378" fill="none" stroke="#1f6fd1" stroke-width="2.5" stroke-linejoin="round"/>
+<polyline points="100,388 100,475" fill="none" stroke="#1f6fd1" stroke-width="2.5" stroke-linejoin="round"/>
+<rect x="78" y="475" width="44" height="40" rx="4" fill="#1f6fd1" stroke="#333" stroke-width="1.5"/>
+<text x="100" y="500" font-size="13" text-anchor="middle" font-weight="bold" fill="#fff">T</text>
+<polyline points="147,357 147,378" fill="none" stroke="#d62828" stroke-width="2.5" stroke-linejoin="round"/>
+<polyline points="147,388 147,475" fill="none" stroke="#d62828" stroke-width="2.5" stroke-linejoin="round"/>
+<rect x="125" y="475" width="44" height="40" rx="4" fill="#d62828" stroke="#333" stroke-width="1.5"/>
+<text x="147" y="500" font-size="13" text-anchor="middle" font-weight="bold" fill="#fff">R1</text>
+<polyline points="194,357 194,378" fill="none" stroke="#e08a00" stroke-width="2.5" stroke-linejoin="round"/>
+<polyline points="194,388 194,475" fill="none" stroke="#e08a00" stroke-width="2.5" stroke-linejoin="round"/>
+<rect x="172" y="475" width="44" height="40" rx="4" fill="#e08a00" stroke="#333" stroke-width="1.5"/>
+<text x="194" y="500" font-size="13" text-anchor="middle" font-weight="bold" fill="#fff">R2</text>
+<polyline points="241,357 241,378" fill="none" stroke="#222" stroke-width="2.5" stroke-linejoin="round"/>
+<polyline points="241,388 241,475" fill="none" stroke="#222" stroke-width="2.5" stroke-linejoin="round"/>
+<rect x="219" y="475" width="44" height="40" rx="4" fill="#222" stroke="#333" stroke-width="1.5"/>
+<text x="241" y="500" font-size="13" text-anchor="middle" font-weight="bold" fill="#fff">S</text>
+<text x="40" y="592" font-size="12" text-anchor="start" font-weight="normal" fill="#222">T (tip) → button NO: signal</text>
+<text x="40" y="613" font-size="12" text-anchor="start" font-weight="normal" fill="#222">R1 → LED +: 5 V supply</text>
+<text x="40" y="634" font-size="12" text-anchor="start" font-weight="normal" fill="#222">R2 → LED −: switched by driver</text>
+<text x="40" y="655" font-size="12" text-anchor="start" font-weight="normal" fill="#222">S (sleeve) → button COM: ground</text>
+<text x="40" y="690" font-size="11" text-anchor="start" font-weight="normal" fill="#555">Pressing the button connects</text>
+<text x="40" y="705" font-size="11" text-anchor="start" font-weight="normal" fill="#555">the signal to ground.</text>
+<text x="40" y="730" font-size="11" text-anchor="start" font-weight="normal" fill="#555">Use the same colour order on every</text>
+<text x="40" y="745" font-size="11" text-anchor="start" font-weight="normal" fill="#555">button so all are interchangeable.</text>
+<rect x="375" y="110" width="665" height="780" rx="8" fill="#fafafa" stroke="#bbb" stroke-width="1.5"/>
+<text x="395" y="138" font-size="16" text-anchor="start" font-weight="bold" fill="#222">B. Team station (one per team)</text>
+<rect x="400" y="170" width="110" height="120" rx="8" fill="#fff" stroke="#333" stroke-width="1.5"/>
+<text x="455" y="192" font-size="13" text-anchor="middle" font-weight="bold" fill="#222">Jack 1</text>
+<text x="455" y="207" font-size="10" text-anchor="middle" font-weight="normal" fill="#666">TRRS panel jack</text>
+<circle cx="510" cy="225" r="4" fill="#e08a00"/>
+<text x="500" y="229" font-size="11" text-anchor="end" font-weight="normal" fill="#222">R2</text>
+<circle cx="510" cy="245" r="4" fill="#1f6fd1"/>
+<text x="500" y="249" font-size="11" text-anchor="end" font-weight="normal" fill="#222">T</text>
+<circle cx="510" cy="265" r="4" fill="#d62828"/>
+<text x="500" y="269" font-size="11" text-anchor="end" font-weight="normal" fill="#222">R1</text>
+<circle cx="510" cy="282" r="4" fill="#222"/>
+<text x="500" y="286" font-size="11" text-anchor="end" font-weight="normal" fill="#222">S</text>
+<rect x="640" y="165" width="170" height="330" rx="8" fill="#e8f1fb" stroke="#1f6fd1" stroke-width="2"/>
+<text x="725.0" y="189" font-size="14" text-anchor="middle" font-weight="bold" fill="#222">ESP32 DevKitC</text>
+<text x="725.0" y="205" font-size="11" text-anchor="middle" font-weight="normal" fill="#555">(classic, 38-pin)</text>
+<circle cx="640" cy="245" r="4" fill="#333"/>
+<text x="648" y="249" font-size="11" text-anchor="start" font-weight="normal" fill="#222">GPIO13</text>
+<circle cx="640" cy="330" r="4" fill="#333"/>
+<text x="648" y="334" font-size="11" text-anchor="start" font-weight="normal" fill="#222">GPIO34</text>
+<circle cx="640" cy="400" r="4" fill="#333"/>
+<text x="648" y="404" font-size="11" text-anchor="start" font-weight="normal" fill="#222">5V</text>
+<circle cx="640" cy="440" r="4" fill="#333"/>
+<text x="648" y="444" font-size="11" text-anchor="start" font-weight="normal" fill="#222">GND</text>
+<circle cx="810" cy="245" r="4" fill="#333"/>
+<text x="802" y="249" font-size="11" text-anchor="end" font-weight="normal" fill="#222">GPIO23</text>
+<circle cx="810" cy="400" r="4" fill="#333"/>
+<text x="802" y="404" font-size="11" text-anchor="end" font-weight="normal" fill="#222">GPIO2</text>
+<text x="725.0" y="455" font-size="10" text-anchor="middle" font-weight="normal" fill="#555">button inputs use the</text>
+<text x="725.0" y="468" font-size="10" text-anchor="middle" font-weight="normal" fill="#555">internal pull-ups</text>
+<polyline points="510,245 575,245" fill="none" stroke="#1f6fd1" stroke-width="2.5" stroke-linejoin="round"/>
+<rect x="575" y="238" width="30" height="14" rx="2" fill="#fff" stroke="#1f6fd1" stroke-width="1.5"/>
+<text x="590" y="234" font-size="10" text-anchor="middle" font-weight="normal" fill="#222">1 kΩ</text>
+<polyline points="605,245 640,245" fill="none" stroke="#1f6fd1" stroke-width="2.5" stroke-linejoin="round"/>
+<rect x="850" y="200" width="110" height="135" rx="8" fill="#fff3e0" stroke="#e08a00" stroke-width="2"/>
+<text x="905" y="222" font-size="13" text-anchor="middle" font-weight="bold" fill="#222">ULN2803</text>
+<text x="905" y="236" font-size="10" text-anchor="middle" font-weight="normal" fill="#555">8-ch LED driver</text>
+<circle cx="850" cy="245" r="4" fill="#333"/>
+<text x="856" y="249" font-size="10" text-anchor="start" font-weight="normal" fill="#222">IN1</text>
+<circle cx="960" cy="255" r="4" fill="#333"/>
+<text x="954" y="259" font-size="10" text-anchor="end" font-weight="normal" fill="#222">OUT1</text>
+<circle cx="960" cy="280" r="4" fill="#333"/>
+<text x="954" y="284" font-size="10" text-anchor="end" font-weight="normal" fill="#222">COM</text>
+<circle cx="960" cy="305" r="4" fill="#333"/>
+<text x="954" y="309" font-size="10" text-anchor="end" font-weight="normal" fill="#222">GND</text>
+<polyline points="810,245 850,245" fill="none" stroke="#1f6fd1" stroke-width="2.5" stroke-linejoin="round"/>
+<polyline points="960,255 975,255 975,150 530,150 530,225 510,225" fill="none" stroke="#e08a00" stroke-width="2.5" stroke-linejoin="round"/>
+<polyline points="410,530 1025,530" fill="none" stroke="#d62828" stroke-width="3" stroke-linejoin="round"/>
+<text x="412" y="524" font-size="10" text-anchor="start" font-weight="normal" fill="#d62828">+5 V bus</text>
+<polyline points="410,560 1025,560" fill="none" stroke="#222" stroke-width="3" stroke-linejoin="round"/>
+<text x="412" y="554" font-size="10" text-anchor="start" font-weight="normal" fill="#222">ground bus</text>
+<polyline points="510,265 550,265 550,530" fill="none" stroke="#d62828" stroke-width="2.5" stroke-linejoin="round"/>
+<circle cx="550" cy="530" r="4" fill="#d62828"/>
+<polyline points="510,282 565,282 565,560" fill="none" stroke="#222" stroke-width="2.5" stroke-linejoin="round"/>
+<circle cx="565" cy="560" r="4" fill="#222"/>
+<polyline points="640,400 605,400 605,530" fill="none" stroke="#d62828" stroke-width="2.5" stroke-linejoin="round"/>
+<circle cx="605" cy="530" r="4" fill="#d62828"/>
+<polyline points="640,440 620,440 620,560" fill="none" stroke="#222" stroke-width="2.5" stroke-linejoin="round"/>
+<circle cx="620" cy="560" r="4" fill="#222"/>
+<polyline points="960,280 1010,280 1010,530" fill="none" stroke="#d62828" stroke-width="2.5" stroke-linejoin="round"/>
+<circle cx="1010" cy="530" r="4" fill="#d62828"/>
+<polyline points="960,305 990,305 990,560" fill="none" stroke="#222" stroke-width="2.5" stroke-linejoin="round"/>
+<circle cx="990" cy="560" r="4" fill="#222"/>
+<circle cx="810" cy="350" r="4" fill="#333"/>
+<text x="802" y="354" font-size="11" text-anchor="end" font-weight="normal" fill="#222">GPIO35</text>
+<polyline points="810,350 818,350" fill="none" stroke="#1f6fd1" stroke-width="2" stroke-linejoin="round"/>
+<rect x="818" y="343" width="30" height="14" rx="2" fill="#fff" stroke="#1f6fd1" stroke-width="1.5"/>
+<text x="833" y="339" font-size="10" text-anchor="middle" font-weight="normal" fill="#222">1 kΩ</text>
+<polyline points="848,350 858,350" fill="none" stroke="#1f6fd1" stroke-width="2" stroke-linejoin="round"/>
+<rect x="858" y="339" width="56" height="22" rx="4" fill="#fff" stroke="#333" stroke-width="1.5"/>
+<text x="886" y="354" font-size="10" text-anchor="middle" font-weight="bold" fill="#222">TEAM</text>
+<polyline points="914,350 926,350 926,362" fill="none" stroke="#222" stroke-width="2" stroke-linejoin="round"/>
+<line x1="919" y1="362" x2="933" y2="362" stroke="#222" stroke-width="2"/>
+<text x="886" y="376" font-size="9" text-anchor="middle" font-weight="normal" fill="#555">team button (on lid)</text>
+<text x="802" y="371" font-size="9" text-anchor="end" font-weight="normal" fill="#555">10 kΩ pull-up to 3V3</text>
+<polyline points="810,400 822,400" fill="none" stroke="#1f6fd1" stroke-width="2" stroke-linejoin="round"/>
+<rect x="822" y="393" width="30" height="14" rx="2" fill="#fff" stroke="#333" stroke-width="1.5"/>
+<text x="837" y="389" font-size="10" text-anchor="middle" font-weight="normal" fill="#222">330 Ω</text>
+<polyline points="852,400 862,400" fill="none" stroke="#1f6fd1" stroke-width="2" stroke-linejoin="round"/>
+<circle cx="870" cy="400" r="9" fill="#fff" stroke="#333"/>
+<text x="870" y="404" font-size="9" text-anchor="middle" font-weight="normal" fill="#222">1</text>
+<polyline points="879,400 896,400" fill="none" stroke="#1f6fd1" stroke-width="1.5" stroke-linejoin="round"/>
+<circle cx="904" cy="400" r="9" fill="#fff" stroke="#333"/>
+<text x="904" y="404" font-size="9" text-anchor="middle" font-weight="normal" fill="#222">2</text>
+<polyline points="913,400 930,400" fill="none" stroke="#1f6fd1" stroke-width="1.5" stroke-linejoin="round"/>
+<circle cx="938" cy="400" r="9" fill="#fff" stroke="#333"/>
+<text x="938" y="404" font-size="9" text-anchor="middle" font-weight="normal" fill="#222">3</text>
+<polyline points="947,400 964,400" fill="none" stroke="#1f6fd1" stroke-width="1.5" stroke-linejoin="round"/>
+<circle cx="972" cy="400" r="9" fill="#fff" stroke="#333"/>
+<text x="972" y="404" font-size="9" text-anchor="middle" font-weight="normal" fill="#222">8</text>
+<text x="950" y="385" font-size="14" text-anchor="middle" font-weight="normal" fill="#222">…</text>
+<text x="915" y="428" font-size="10" text-anchor="middle" font-weight="normal" fill="#222">8 x PL9823 player lights</text>
+<text x="912" y="441" font-size="9" text-anchor="middle" font-weight="normal" fill="#555">(DIN→DOUT, +5 V/GND each)</text>
+<rect x="555.0" y="320" width="75.0" height="20" rx="10" fill="#fff" stroke="#7a5cc2" stroke-width="1.5"/>
+<text x="592.5" y="334" font-size="10" text-anchor="middle" font-weight="normal" fill="#7a5cc2">BATT SENSE</text>
+<polyline points="630,330 640,330" fill="none" stroke="#7a5cc2" stroke-width="2" stroke-linejoin="round"/>
+<rect x="400" y="600" width="120" height="110" rx="8" fill="#fff" stroke="#333" stroke-width="1.5"/>
+<text x="460" y="624" font-size="12" text-anchor="middle" font-weight="bold" fill="#222">18650 cell</text>
+<text x="460" y="640" font-size="10" text-anchor="middle" font-weight="normal" fill="#666">3.7 V, in holder</text>
+<circle cx="520" cy="665" r="4" fill="#d62828"/>
+<text x="514" y="669" font-size="13" text-anchor="end" font-weight="normal" fill="#222">+</text>
+<circle cx="520" cy="695" r="4" fill="#222"/>
+<text x="514" y="699" font-size="13" text-anchor="end" font-weight="normal" fill="#222">−</text>
+<rect x="600" y="600" width="170" height="110" rx="8" fill="#fff" stroke="#333" stroke-width="1.5"/>
+<text x="685" y="624" font-size="12" text-anchor="middle" font-weight="bold" fill="#222">USB-C UPS board</text>
+<text x="685" y="640" font-size="10" text-anchor="middle" font-weight="normal" fill="#666">charge + 5 V boost, pass-through</text>
+<text x="685" y="654" font-size="10" text-anchor="middle" font-weight="normal" fill="#666">USB-C: wall power + charging</text>
+<circle cx="600" cy="665" r="4" fill="#d62828"/>
+<circle cx="600" cy="695" r="4" fill="#222"/>
+<text x="606" y="669" font-size="10" text-anchor="start" font-weight="normal" fill="#222">BAT+</text>
+<text x="606" y="699" font-size="10" text-anchor="start" font-weight="normal" fill="#222">BAT−</text>
+<circle cx="770" cy="665" r="4" fill="#d62828"/>
+<circle cx="770" cy="695" r="4" fill="#222"/>
+<text x="764" y="669" font-size="10" text-anchor="end" font-weight="normal" fill="#222">5V OUT</text>
+<text x="764" y="699" font-size="10" text-anchor="end" font-weight="normal" fill="#222">GND</text>
+<polyline points="520,665 600,665" fill="none" stroke="#d62828" stroke-width="2.5" stroke-linejoin="round"/>
+<polyline points="520,695 600,695" fill="none" stroke="#222" stroke-width="2.5" stroke-linejoin="round"/>
+<polyline points="770,665 790,665" fill="none" stroke="#d62828" stroke-width="2.5" stroke-linejoin="round"/>
+<line x1="790" y1="665" x2="818" y2="650" stroke="#d62828" stroke-width="2.5"/>
+<circle cx="790" cy="665" r="4" fill="#d62828"/>
+<circle cx="820" cy="665" r="4" fill="#d62828"/>
+<text x="805" y="640" font-size="10" text-anchor="middle" font-weight="normal" fill="#222">on/off</text>
+<polyline points="820,665 840,665 840,530" fill="none" stroke="#d62828" stroke-width="2.5" stroke-linejoin="round"/>
+<circle cx="840" cy="530" r="4" fill="#d62828"/>
+<polyline points="770,695 860,695 860,560" fill="none" stroke="#222" stroke-width="2.5" stroke-linejoin="round"/>
+<circle cx="860" cy="560" r="4" fill="#222"/>
+<polyline points="560,665 560,730" fill="none" stroke="#d62828" stroke-width="2" stroke-linejoin="round"/>
+<circle cx="560" cy="665" r="4" fill="#d62828"/>
+<rect x="553" y="730" width="14" height="30" rx="2" fill="#fff" stroke="#333" stroke-width="1.5"/>
+<text x="549" y="749" font-size="10" text-anchor="end" font-weight="normal" fill="#222">100 kΩ</text>
+<polyline points="560,760 560,780" fill="none" stroke="#7a5cc2" stroke-width="2" stroke-linejoin="round"/>
+<circle cx="560" cy="770" r="4" fill="#7a5cc2"/>
+<rect x="553" y="780" width="14" height="30" rx="2" fill="#fff" stroke="#333" stroke-width="1.5"/>
+<text x="549" y="799" font-size="10" text-anchor="end" font-weight="normal" fill="#222">100 kΩ</text>
+<polyline points="560,810 560,825 600,825" fill="none" stroke="#222" stroke-width="2" stroke-linejoin="round"/>
+<text x="605" y="829" font-size="10" text-anchor="start" font-weight="normal" fill="#222">GND</text>
+<polyline points="560,770 590,770" fill="none" stroke="#7a5cc2" stroke-width="2" stroke-linejoin="round"/>
+<rect x="590" y="760" width="75.0" height="20" rx="10" fill="#fff" stroke="#7a5cc2" stroke-width="1.5"/>
+<text x="627.5" y="774" font-size="10" text-anchor="middle" font-weight="normal" fill="#7a5cc2">BATT SENSE</text>
+<text x="400" y="850" font-size="10" text-anchor="start" font-weight="normal" fill="#555">Divider halves the battery voltage (max 2.1 V) for GPIO34.</text>
+<text x="880" y="612" font-size="13" text-anchor="start" font-weight="bold" fill="#222">Station pin map</text>
+<text x="880" y="632" font-size="11" text-anchor="start" font-weight="bold" fill="#222">Jack</text>
+<text x="918" y="632" font-size="11" text-anchor="start" font-weight="bold" fill="#222">Button</text>
+<text x="975" y="632" font-size="11" text-anchor="start" font-weight="bold" fill="#222">LED (→ULN)</text>
+<text x="888" y="650" font-size="11" text-anchor="start" font-weight="normal" fill="#222">1</text>
+<text x="918" y="650" font-size="11" text-anchor="start" font-weight="normal" fill="#222">GPIO13</text>
+<text x="975" y="650" font-size="11" text-anchor="start" font-weight="normal" fill="#222">GPIO23 → IN1</text>
+<text x="888" y="666" font-size="11" text-anchor="start" font-weight="normal" fill="#222">2</text>
+<text x="918" y="666" font-size="11" text-anchor="start" font-weight="normal" fill="#222">GPIO14</text>
+<text x="975" y="666" font-size="11" text-anchor="start" font-weight="normal" fill="#222">GPIO25 → IN2</text>
+<text x="888" y="682" font-size="11" text-anchor="start" font-weight="normal" fill="#222">3</text>
+<text x="918" y="682" font-size="11" text-anchor="start" font-weight="normal" fill="#222">GPIO16</text>
+<text x="975" y="682" font-size="11" text-anchor="start" font-weight="normal" fill="#222">GPIO26 → IN3</text>
+<text x="888" y="698" font-size="11" text-anchor="start" font-weight="normal" fill="#222">4</text>
+<text x="918" y="698" font-size="11" text-anchor="start" font-weight="normal" fill="#222">GPIO17</text>
+<text x="975" y="698" font-size="11" text-anchor="start" font-weight="normal" fill="#222">GPIO27 → IN4</text>
+<text x="888" y="714" font-size="11" text-anchor="start" font-weight="normal" fill="#222">5</text>
+<text x="918" y="714" font-size="11" text-anchor="start" font-weight="normal" fill="#222">GPIO18</text>
+<text x="975" y="714" font-size="11" text-anchor="start" font-weight="normal" fill="#222">GPIO32 → IN5</text>
+<text x="888" y="730" font-size="11" text-anchor="start" font-weight="normal" fill="#222">6</text>
+<text x="918" y="730" font-size="11" text-anchor="start" font-weight="normal" fill="#222">GPIO19</text>
+<text x="975" y="730" font-size="11" text-anchor="start" font-weight="normal" fill="#222">GPIO33 → IN6</text>
+<text x="888" y="746" font-size="11" text-anchor="start" font-weight="normal" fill="#222">7</text>
+<text x="918" y="746" font-size="11" text-anchor="start" font-weight="normal" fill="#222">GPIO21</text>
+<text x="975" y="746" font-size="11" text-anchor="start" font-weight="normal" fill="#222">GPIO4 → IN7</text>
+<text x="888" y="762" font-size="11" text-anchor="start" font-weight="normal" fill="#222">8</text>
+<text x="918" y="762" font-size="11" text-anchor="start" font-weight="normal" fill="#222">GPIO22</text>
+<text x="975" y="762" font-size="11" text-anchor="start" font-weight="normal" fill="#222">GPIO15 → IN8</text>
+<text x="880" y="790" font-size="10" text-anchor="start" font-weight="normal" fill="#555">OUTn → jack n R2</text>
+<text x="880" y="804" font-size="10" text-anchor="start" font-weight="normal" fill="#555">1 kΩ on every button input</text>
+<text x="880" y="818" font-size="10" text-anchor="start" font-weight="normal" fill="#555">(protects the pin while</text>
+<text x="880" y="832" font-size="10" text-anchor="start" font-weight="normal" fill="#555">a plug is inserted)</text>
+<text x="880" y="846" font-size="10" text-anchor="start" font-weight="normal" fill="#555">Player lights: GPIO2</text>
+<text x="880" y="860" font-size="10" text-anchor="start" font-weight="normal" fill="#555">Team button: GPIO35</text>
+<rect x="1055" y="110" width="340" height="620" rx="8" fill="#fafafa" stroke="#bbb" stroke-width="1.5"/>
+<text x="1075" y="138" font-size="16" text-anchor="start" font-weight="bold" fill="#222">C. Base station (one per set)</text>
+<rect x="1163" y="180" width="110" height="320" rx="8" fill="#e8f1fb" stroke="#1f6fd1" stroke-width="2"/>
+<text x="1218" y="204" font-size="14" text-anchor="middle" font-weight="bold" fill="#222">ESP32-S3</text>
+<text x="1218" y="220" font-size="11" text-anchor="middle" font-weight="normal" fill="#555">DevKitC</text>
+<circle cx="1163" cy="260" r="4" fill="#333"/>
+<text x="1171" y="264" font-size="11" text-anchor="start" font-weight="normal" fill="#222">GPIO4</text>
+<rect x="1085" y="247" width="58" height="26" rx="4" fill="#fff" stroke="#333" stroke-width="1.5"/>
+<text x="1114" y="264" font-size="10" text-anchor="middle" font-weight="normal" fill="#222">Arm</text>
+<polyline points="1143,260 1163,260" fill="none" stroke="#1f6fd1" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="1085,260 1073,260 1073,282" fill="none" stroke="#222" stroke-width="2" stroke-linejoin="round"/>
+<line x1="1067" y1="282" x2="1079" y2="282" stroke="#222" stroke-width="2"/>
+<circle cx="1163" cy="308" r="4" fill="#333"/>
+<text x="1171" y="312" font-size="11" text-anchor="start" font-weight="normal" fill="#222">GPIO5</text>
+<rect x="1085" y="295" width="58" height="26" rx="4" fill="#fff" stroke="#333" stroke-width="1.5"/>
+<text x="1114" y="312" font-size="10" text-anchor="middle" font-weight="normal" fill="#222">Correct</text>
+<polyline points="1143,308 1163,308" fill="none" stroke="#1f6fd1" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="1085,308 1073,308 1073,330" fill="none" stroke="#222" stroke-width="2" stroke-linejoin="round"/>
+<line x1="1067" y1="330" x2="1079" y2="330" stroke="#222" stroke-width="2"/>
+<circle cx="1163" cy="356" r="4" fill="#333"/>
+<text x="1171" y="360" font-size="11" text-anchor="start" font-weight="normal" fill="#222">GPIO6</text>
+<rect x="1085" y="343" width="58" height="26" rx="4" fill="#fff" stroke="#333" stroke-width="1.5"/>
+<text x="1114" y="360" font-size="10" text-anchor="middle" font-weight="normal" fill="#222">Wrong</text>
+<polyline points="1143,356 1163,356" fill="none" stroke="#1f6fd1" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="1085,356 1073,356 1073,378" fill="none" stroke="#222" stroke-width="2" stroke-linejoin="round"/>
+<line x1="1067" y1="378" x2="1079" y2="378" stroke="#222" stroke-width="2"/>
+<circle cx="1163" cy="404" r="4" fill="#333"/>
+<text x="1171" y="408" font-size="11" text-anchor="start" font-weight="normal" fill="#222">GPIO7</text>
+<rect x="1085" y="391" width="58" height="26" rx="4" fill="#fff" stroke="#333" stroke-width="1.5"/>
+<text x="1114" y="408" font-size="10" text-anchor="middle" font-weight="normal" fill="#222">Reset</text>
+<polyline points="1143,404 1163,404" fill="none" stroke="#1f6fd1" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="1085,404 1073,404 1073,426" fill="none" stroke="#222" stroke-width="2" stroke-linejoin="round"/>
+<line x1="1067" y1="426" x2="1079" y2="426" stroke="#222" stroke-width="2"/>
+<text x="1075" y="470" font-size="10" text-anchor="start" font-weight="normal" fill="#555">buttons to GND,</text>
+<text x="1075" y="483" font-size="10" text-anchor="start" font-weight="normal" fill="#555">internal pull-ups</text>
+<circle cx="1273" cy="260" r="4" fill="#333"/>
+<text x="1265" y="264" font-size="11" text-anchor="end" font-weight="normal" fill="#222">GPIO8</text>
+<polyline points="1273,260 1281,260" fill="none" stroke="#1f6fd1" stroke-width="2" stroke-linejoin="round"/>
+<rect x="1281" y="253" width="30" height="14" rx="2" fill="#fff" stroke="#333" stroke-width="1.5"/>
+<text x="1296" y="249" font-size="10" text-anchor="middle" font-weight="normal" fill="#222">1 kΩ</text>
+<polyline points="1311,260 1323,260" fill="none" stroke="#1f6fd1" stroke-width="2" stroke-linejoin="round"/>
+<circle cx="1335" cy="260" r="12" fill="#fff" stroke="#333"/>
+<text x="1335" y="263" font-size="7" text-anchor="middle" font-weight="normal" fill="#222">NPN</text>
+<polyline points="1339,249 1339,232" fill="none" stroke="#333" stroke-width="2" stroke-linejoin="round"/>
+<rect x="1324" y="202" width="30" height="30" rx="15" fill="#fff" stroke="#333" stroke-width="1.5"/>
+<text x="1339" y="220" font-size="9" text-anchor="middle" font-weight="normal" fill="#222">BZ</text>
+<polyline points="1339,202 1339,192" fill="none" stroke="#d62828" stroke-width="2" stroke-linejoin="round"/>
+<text x="1347" y="196" font-size="10" text-anchor="start" font-weight="normal" fill="#222">+5 V</text>
+<polyline points="1339,271 1339,290" fill="none" stroke="#222" stroke-width="2" stroke-linejoin="round"/>
+<text x="1347" y="292" font-size="10" text-anchor="start" font-weight="normal" fill="#222">GND</text>
+<text x="1281" y="312" font-size="10" text-anchor="start" font-weight="normal" fill="#555">2N2222 + active</text>
+<text x="1281" y="325" font-size="10" text-anchor="start" font-weight="normal" fill="#555">5 V buzzer</text>
+<circle cx="1273" cy="380" r="4" fill="#333"/>
+<text x="1265" y="384" font-size="11" text-anchor="end" font-weight="normal" fill="#222">GPIO9</text>
+<polyline points="1273,380 1281,380" fill="none" stroke="#1f6fd1" stroke-width="2" stroke-linejoin="round"/>
+<rect x="1281" y="373" width="30" height="14" rx="2" fill="#fff" stroke="#333" stroke-width="1.5"/>
+<text x="1296" y="369" font-size="10" text-anchor="middle" font-weight="normal" fill="#222">220 Ω</text>
+<polyline points="1311,380 1319,380" fill="none" stroke="#333" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="1319,372 1319,388 1335,380" fill="#7bd389" stroke="#333"/>
+<polyline points="1335,372 1335,388" fill="none" stroke="#333" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="1335,380 1345,380 1345,394" fill="none" stroke="#222" stroke-width="2" stroke-linejoin="round"/>
+<text x="1351" y="384" font-size="10" text-anchor="start" font-weight="normal" fill="#222">Armed</text>
+<circle cx="1273" cy="428" r="4" fill="#333"/>
+<text x="1265" y="432" font-size="11" text-anchor="end" font-weight="normal" fill="#222">GPIO10</text>
+<polyline points="1273,428 1281,428" fill="none" stroke="#1f6fd1" stroke-width="2" stroke-linejoin="round"/>
+<rect x="1281" y="421" width="30" height="14" rx="2" fill="#fff" stroke="#333" stroke-width="1.5"/>
+<text x="1296" y="417" font-size="10" text-anchor="middle" font-weight="normal" fill="#222">220 Ω</text>
+<polyline points="1311,428 1319,428" fill="none" stroke="#333" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="1319,420 1319,436 1335,428" fill="#ef6f6c" stroke="#333"/>
+<polyline points="1335,420 1335,436" fill="none" stroke="#333" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="1335,428 1345,428 1345,442" fill="none" stroke="#222" stroke-width="2" stroke-linejoin="round"/>
+<text x="1351" y="432" font-size="10" text-anchor="start" font-weight="normal" fill="#222">Locked</text>
+<text x="1225" y="525" font-size="10" text-anchor="middle" font-weight="normal" fill="#222">Power: 18650 + USB-C UPS board + switch,</text>
+<text x="1225" y="538" font-size="10" text-anchor="middle" font-weight="normal" fill="#222">same as team stations (battery or wall)</text>
+<circle cx="1273" cy="470" r="4" fill="#333"/>
+<text x="1265" y="474" font-size="11" text-anchor="end" font-weight="normal" fill="#222">GPIO11</text>
+<polyline points="1273,470 1281,470" fill="none" stroke="#1f6fd1" stroke-width="2" stroke-linejoin="round"/>
+<rect x="1281" y="463" width="30" height="14" rx="2" fill="#fff" stroke="#333" stroke-width="1.5"/>
+<text x="1296" y="459" font-size="10" text-anchor="middle" font-weight="normal" fill="#222">330 Ω</text>
+<polyline points="1311,470 1319,470" fill="none" stroke="#1f6fd1" stroke-width="2" stroke-linejoin="round"/>
+<circle cx="1328" cy="470" r="8" fill="#fff" stroke="#333"/>
+<text x="1328" y="473" font-size="8" text-anchor="middle" font-weight="normal" fill="#222">1</text>
+<circle cx="1352" cy="470" r="8" fill="#fff" stroke="#333"/>
+<text x="1352" y="473" font-size="8" text-anchor="middle" font-weight="normal" fill="#222">2</text>
+<circle cx="1376" cy="470" r="8" fill="#fff" stroke="#333"/>
+<text x="1376" y="473" font-size="8" text-anchor="middle" font-weight="normal" fill="#222">4</text>
+<text x="1277" y="494" font-size="9" text-anchor="start" font-weight="normal" fill="#555">4 x PL9823 team lights</text>
+<rect x="1075" y="545" width="120" height="50" rx="4" fill="#111" stroke="#333" stroke-width="1.5"/>
+<text x="1135" y="566" font-size="10" text-anchor="middle" font-weight="normal" fill="#9fe">EAGLES · seat 3</text>
+<text x="1135" y="582" font-size="8" text-anchor="middle" font-weight="normal" fill="#aaa">1.3in OLED (I²C)</text>
+<text x="1205" y="560" font-size="10" text-anchor="start" font-weight="normal" fill="#222">SDA → GPIO12, SCL → GPIO13</text>
+<text x="1205" y="575" font-size="10" text-anchor="start" font-weight="normal" fill="#222">VCC → 3.3 V, GND → GND</text>
+<text x="1075" y="620" font-size="11" text-anchor="start" font-weight="normal" fill="#222">The base hosts its own Wi-Fi network</text>
+<text x="1075" y="637" font-size="11" text-anchor="start" font-weight="normal" fill="#222">(QuizBowl-XXXX). Host phone and</text>
+<text x="1075" y="654" font-size="11" text-anchor="start" font-weight="normal" fill="#222">leaderboard TV join it and open</text>
+<text x="1075" y="671" font-size="11" text-anchor="start" font-weight="normal" fill="#222">http://192.168.4.1</text>
+<rect x="20" y="905" width="1375" height="200" rx="8" fill="#fafafa" stroke="#bbb" stroke-width="1.5"/>
+<text x="40" y="933" font-size="16" text-anchor="start" font-weight="bold" fill="#222">D. Whole system (up to 4 team stations of up to 8 buttons)</text>
+<rect x="50" y="950" width="56" height="44" rx="8" fill="#fff" stroke="#333" stroke-width="1.5"/>
+<text x="78.0" y="970.0" font-size="12" text-anchor="middle" font-weight="bold" fill="#222">P1</text>
+<text x="78.0" y="986.0" font-size="10" text-anchor="middle" font-weight="normal" fill="#555">button</text>
+<rect x="118" y="950" width="56" height="44" rx="8" fill="#fff" stroke="#333" stroke-width="1.5"/>
+<text x="146.0" y="970.0" font-size="12" text-anchor="middle" font-weight="bold" fill="#222">P2</text>
+<text x="146.0" y="986.0" font-size="10" text-anchor="middle" font-weight="normal" fill="#555">button</text>
+<rect x="186" y="950" width="56" height="44" rx="8" fill="#fff" stroke="#333" stroke-width="1.5"/>
+<text x="214.0" y="970.0" font-size="12" text-anchor="middle" font-weight="bold" fill="#222">P3</text>
+<text x="214.0" y="986.0" font-size="10" text-anchor="middle" font-weight="normal" fill="#555">button</text>
+<rect x="254" y="950" width="56" height="44" rx="8" fill="#fff" stroke="#333" stroke-width="1.5"/>
+<text x="282.0" y="970.0" font-size="12" text-anchor="middle" font-weight="bold" fill="#222">P4</text>
+<text x="282.0" y="986.0" font-size="10" text-anchor="middle" font-weight="normal" fill="#555">button</text>
+<polyline points="310,972 400,972" fill="none" stroke="#222" stroke-width="2" stroke-linejoin="round"/>
+<text x="345" y="966" font-size="10" text-anchor="middle" font-weight="normal" fill="#555">cables</text>
+<rect x="400" y="950" width="180" height="44" rx="8" fill="#e8f1fb" stroke="#1f6fd1" stroke-width="1.5"/>
+<text x="490.0" y="970.0" font-size="12" text-anchor="middle" font-weight="bold" fill="#222">Team station A</text>
+<text x="490.0" y="986.0" font-size="10" text-anchor="middle" font-weight="normal" fill="#555">ESP32 + battery</text>
+<polyline points="580,972 740,1020" fill="none" stroke="#2a9d8f" stroke-width="2.5" stroke-dasharray="6 4" stroke-linejoin="round"/>
+<rect x="50" y="1022" width="56" height="44" rx="8" fill="#fff" stroke="#333" stroke-width="1.5"/>
+<text x="78.0" y="1042.0" font-size="12" text-anchor="middle" font-weight="bold" fill="#222">P1</text>
+<text x="78.0" y="1058.0" font-size="10" text-anchor="middle" font-weight="normal" fill="#555">button</text>
+<rect x="118" y="1022" width="56" height="44" rx="8" fill="#fff" stroke="#333" stroke-width="1.5"/>
+<text x="146.0" y="1042.0" font-size="12" text-anchor="middle" font-weight="bold" fill="#222">P2</text>
+<text x="146.0" y="1058.0" font-size="10" text-anchor="middle" font-weight="normal" fill="#555">button</text>
+<rect x="186" y="1022" width="56" height="44" rx="8" fill="#fff" stroke="#333" stroke-width="1.5"/>
+<text x="214.0" y="1042.0" font-size="12" text-anchor="middle" font-weight="bold" fill="#222">P3</text>
+<text x="214.0" y="1058.0" font-size="10" text-anchor="middle" font-weight="normal" fill="#555">button</text>
+<rect x="254" y="1022" width="56" height="44" rx="8" fill="#fff" stroke="#333" stroke-width="1.5"/>
+<text x="282.0" y="1042.0" font-size="12" text-anchor="middle" font-weight="bold" fill="#222">P4</text>
+<text x="282.0" y="1058.0" font-size="10" text-anchor="middle" font-weight="normal" fill="#555">button</text>
+<polyline points="310,1044 400,1044" fill="none" stroke="#222" stroke-width="2" stroke-linejoin="round"/>
+<text x="345" y="1038" font-size="10" text-anchor="middle" font-weight="normal" fill="#555">cables</text>
+<rect x="400" y="1022" width="180" height="44" rx="8" fill="#e8f1fb" stroke="#1f6fd1" stroke-width="1.5"/>
+<text x="490.0" y="1042.0" font-size="12" text-anchor="middle" font-weight="bold" fill="#222">Team station B</text>
+<text x="490.0" y="1058.0" font-size="10" text-anchor="middle" font-weight="normal" fill="#555">ESP32 + battery</text>
+<polyline points="580,1044 740,1020" fill="none" stroke="#2a9d8f" stroke-width="2.5" stroke-dasharray="6 4" stroke-linejoin="round"/>
+<text x="660" y="975" font-size="11" text-anchor="middle" font-weight="normal" fill="#2a9d8f">ESP-NOW radio</text>
+<text x="620" y="1095" font-size="11" text-anchor="start" font-weight="normal" fill="#555">…up to 4 team stations</text>
+<rect x="740" y="990" width="200" height="60" rx="8" fill="#e8f1fb" stroke="#1f6fd1" stroke-width="1.5"/>
+<text x="840.0" y="1018.0" font-size="12" text-anchor="middle" font-weight="bold" fill="#222">Base station</text>
+<text x="840.0" y="1034.0" font-size="10" text-anchor="middle" font-weight="normal" fill="#555">ESP32-S3, own Wi-Fi</text>
+<polyline points="940,1020 1080,975" fill="none" stroke="#2a9d8f" stroke-width="2.5" stroke-dasharray="6 4" stroke-linejoin="round"/>
+<polyline points="940,1020 1080,1055" fill="none" stroke="#2a9d8f" stroke-width="2.5" stroke-dasharray="6 4" stroke-linejoin="round"/>
+<text x="1005" y="1005" font-size="11" text-anchor="middle" font-weight="normal" fill="#2a9d8f">Wi-Fi</text>
+<rect x="1080" y="950" width="220" height="50" rx="8" fill="#fff" stroke="#333" stroke-width="1.5"/>
+<text x="1190.0" y="973.0" font-size="12" text-anchor="middle" font-weight="bold" fill="#222">Host phone / laptop</text>
+<text x="1190.0" y="989.0" font-size="10" text-anchor="middle" font-weight="normal" fill="#555">arm, score, reset</text>
+<rect x="1080" y="1030" width="220" height="50" rx="8" fill="#fff" stroke="#333" stroke-width="1.5"/>
+<text x="1190.0" y="1053.0" font-size="12" text-anchor="middle" font-weight="bold" fill="#222">Leaderboard TV</text>
+<text x="1190.0" y="1069.0" font-size="10" text-anchor="middle" font-weight="normal" fill="#555">/board page</text>
+</svg>

@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Quiz Bowl Scoreboard</title>
+<style>
+  :root { --bg:#0e1116; --panel:#171b22; --text:#f2f4f8; --muted:#8b94a3; --accent:#f4d35e; }
+  * { box-sizing:border-box; }
+  html,body { margin:0; height:100%; background:var(--bg); color:var(--text);
+    font-family:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif; overflow:hidden; }
+  body { display:flex; flex-direction:column; padding:3vh 4vw; gap:2.5vh; cursor:none; }
+  header { display:flex; justify-content:space-between; align-items:baseline; }
+  h1 { margin:0; font-size:4.5vh; letter-spacing:.04em; }
+  #meta { color:var(--muted); font-size:2.6vh; }
+  #buzz { height:9vh; border-radius:1.5vh; background:var(--panel); display:flex; align-items:center;
+    justify-content:center; font-size:4.2vh; font-weight:700; transition:background .2s; }
+  #buzz.live { background:var(--accent); color:#111; }
+  #teams { flex:1; display:grid; gap:2vh; grid-auto-rows:1fr; }
+  .team { display:flex; align-items:center; gap:3vw; background:var(--panel); border-radius:1.5vh;
+    padding:0 3vw; border-left:1.2vw solid var(--c); min-height:0; transition:transform .4s; }
+  .rank { font-size:5vh; color:var(--muted); width:4vw; text-align:center; }
+  .name { flex:1; font-size:7vh; font-weight:700; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+  .score { font-size:10vh; font-weight:800; font-variant-numeric:tabular-nums; }
+  .team.bump .score { animation:bump .8s ease; }
+  .team.locked { opacity:.45; }
+  @keyframes bump { 0%{transform:scale(1)} 30%{transform:scale(1.25); color:var(--accent)} 100%{transform:scale(1)} }
+  #status { position:fixed; bottom:1.5vh; right:2vw; font-size:1.8vh; color:var(--muted); }
+</style>
+</head>
+<body>
+<header><h1>QUIZ BOWL</h1><div id="meta"></div></header>
+<div id="buzz">Waiting for the next question</div>
+<div id="teams"></div>
+<div id="status">Connecting…</div>
+<script>
+// Scoreboard for the base station (served at /board). Read-only.
+// Expects JSON over WebSocket at ws://<host>/ws:
+//   {"type":"state","question":12,"teams":[{"id":1,"name":"Eagles","score":120,"color":"#e63946","locked":false}],
+//    "buzz":{"team":1,"player":"Sam","ms":412} | null}
+// Open with ?demo to run on fake data with no base station (follows host.html?demo if open).
+const teamsEl = document.getElementById('teams'), buzzEl = document.getElementById('buzz');
+const metaEl = document.getElementById('meta'), statusEl = document.getElementById('status');
+const prev = {};
+
+function render(s) {
+  const teams = [...s.teams].sort((a, b) => b.score - a.score);
+  teamsEl.style.gridTemplateRows = `repeat(${teams.length}, 1fr)`;
+  teamsEl.replaceChildren(...teams.map((t, i) => {
+    const el = document.createElement('div');
+    el.className = 'team' + (t.locked ? ' locked' : '') + (prev[t.id] !== undefined && prev[t.id] !== t.score ? ' bump' : '');
+    el.style.setProperty('--c', t.color || '#4a90d9');
+    el.innerHTML = `<div class="rank">${i + 1}</div><div class="name"></div><div class="score">${t.score}</div>`;
+    el.querySelector('.name').textContent = t.name;
+    prev[t.id] = t.score;
+    return el;
+  }));
+  const b = s.buzz && s.teams.find(t => t.id === s.buzz.team);
+  buzzEl.classList.toggle('live', !!b);
+  buzzEl.textContent = b ? `${b.name}${s.buzz.player ? ' · ' + s.buzz.player : ''}` : 'Waiting for the next question';
+  metaEl.textContent = s.question ? `Question ${s.question}` : '';
+}
+
+function connect() {
+  const ws = new WebSocket(`ws://${location.host}/ws`);
+  ws.onopen = () => statusEl.textContent = '';
+  ws.onmessage = e => { try { const m = JSON.parse(e.data); if (m.type === 'state') render(m); } catch {} };
+  ws.onclose = () => { statusEl.textContent = 'Reconnecting…'; setTimeout(connect, 1500); };
+}
+
+function demo() {
+  statusEl.textContent = 'Demo mode';
+  const s = { question: 1, buzz: null, teams: [
+    { id: 1, name: 'Eagles', score: 0, color: '#e63946' }, { id: 2, name: 'Owls', score: 0, color: '#4a90d9' },
+    { id: 3, name: 'Foxes', score: 0, color: '#2a9d8f' }, { id: 4, name: 'Bears', score: 0, color: '#f4a261' } ] };
+  render(s);
+  return setInterval(() => {
+    if (!s.buzz) { const t = s.teams[Math.floor(Math.random() * 4)]; s.buzz = { team: t.id, player: 'Seat ' + (1 + Math.floor(Math.random() * 4)) }; }
+    else { const t = s.teams.find(x => x.id === s.buzz.team); t.score += [10, 10, 15, -5][Math.floor(Math.random() * 4)]; s.buzz = null; s.question++; }
+    render(s);
+  }, 2000);
+}
+
+// In demo mode, follow host.html?demo if it's open in the same browser; otherwise simulate.
+function demoMode() {
+  const ch = new BroadcastChannel('qb-demo');
+  let follow = false, sim;
+  ch.onmessage = e => { if (e.data.type === 'state') { if (!follow) { follow = true; clearInterval(sim); statusEl.textContent = 'Demo mode (following host page)'; } render(e.data); } };
+  ch.postMessage('hello');
+  setTimeout(() => { if (!follow) sim = demo(); }, 500);
+}
+
+new URLSearchParams(location.search).has('demo') ? demoMode() : connect();
+</script>
+</body>
+</html>
