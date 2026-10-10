@@ -4,17 +4,17 @@ Parametric OpenSCAD (tested with OpenSCAD 2021.01) plus ready-to-print STLs for:
 
 | Part | File | Outer size (W x D x H) |
 |---|---|---|
-| Team station box | `stl/team_station_box.stl` | 151 x 101 x 47 mm |
-| Team station lid | `stl/team_station_lid.stl` | 151 x 101 x 3 mm (+4 mm lip) |
+| Team station box | `stl/team_station_box.stl` | 175 x 118 x 47 mm |
+| Team station lid | `stl/team_station_lid.stl` | 175 x 118 x 3 mm (+4 mm lip) |
 | Base station box | `stl/base_station_box.stl` | 180 x 125 x 47 mm |
 | Base station lid | `stl/base_station_lid.stl` | 180 x 125 x 3 mm (+4 mm lip) |
 
-Fits a 180 x 180 mm bed or larger. Previews are in `preview/`.
+Fits a 180 x 180 mm bed or larger (the team station is 175 mm wide, so skip the brim on a 180 mm bed). Previews are in `preview/`.
 
 ## What's where
 
 **Team station** (one per team)
-- Front: 8 holes for 3.5 mm TRRS panel jacks, a player light (5 mm RGB LED) above each one, seat numbers 1-8 below.
+- Front: 8 snap-in RJ45 keystone jacks for Cat6 player-button cables, a player light (5 mm RGB LED) above each one, seat numbers 1-8 above the lights. `jack_type = "trrs"` switches back to 3.5 mm jacks.
 - Back: ESP32 USB opening (programming), the UPS board's USB-C opening (charging and wall power) and a 3 mm window for its charge LED.
 - Right side: slide power switch.
 - Lid: a 30 mm team button labelled TEAM (for playing as a team without the player buttons), big team number and "TEAM n" label. Print the lid in the team's colour. `team_button = false` removes the button hole. (`lid_led = true` adds an extra LED hole on the lid.)
@@ -47,7 +47,7 @@ Export: `openscad -D 'part="box"' -o box.stl team_station.scad` and the same wit
 | Board stack | standoff (23 mm station, 5 mm base) + 1.6 mm protoboard + 8.5 mm female header + DevKitC | sets the USB height (`esp_usb_z`: 36 mm station, 18 mm base) |
 | Team button | 30 mm snap-in arcade button, ~33 mm bezel, ~35 mm below the lid | 30 mm hole (`team_btn_hole`; some need 28 mm) |
 | Protoboard | 70 x 90 mm, M2 holes 2 mm in from each corner | standoff positions (M2 self-tap pilot) |
-| 3.5 mm TRRS panel jack | 6 mm thread with nut, ~12 mm deep behind the panel | 6.2 mm holes, 14 mm pitch, in a 2.4 mm wall |
+| RJ45 keystone jack (Cat6) | standard keystone, ~16.5 x 19 mm face, ~32 mm deep behind the panel | 14.8 x 16.3 mm cut-outs at 19 mm pitch, wall thinned to 2.0 mm around each so the latch clicks in (`keystone_cut`, `keystone_panel`) |
 | Player / team lights | PL9823 5 mm RGB LED, pushed in from inside (flange stops it) | 5.1 mm holes; station lights 13 mm above the jacks, base lights 28 mm apart |
 | OLED | 1.3" SH1106 128x64 I2C module, PCB 35.4 x 33.5 mm, M2 holes 30.5 x 28.5 mm, glass centred ~1.5 mm off the PCB centre | 31 x 17 mm window; check `oled_pcb_dy` and `oled_holes` against your module, they vary between sellers |
 | 18650 holder | single cell, ~77 x 21 x 19 mm | retaining rails, fix with double-sided tape |
