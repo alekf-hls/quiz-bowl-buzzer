@@ -4,12 +4,12 @@ Parametric OpenSCAD (tested with OpenSCAD 2021.01) plus ready-to-print STLs for:
 
 | Part | File | Outer size (W x D x H) |
 |---|---|---|
-| Team station box | `stl/team_station_box.stl` | 175 x 118 x 47 mm |
-| Team station lid | `stl/team_station_lid.stl` | 175 x 118 x 3 mm (+4 mm lip) |
+| Team station box | `stl/team_station_box.stl` | 179 x 118 x 47 mm |
+| Team station lid | `stl/team_station_lid.stl` | 179 x 118 x 3 mm (+4 mm lip) |
 | Base station box | `stl/base_station_box.stl` | 180 x 125 x 47 mm |
 | Base station lid | `stl/base_station_lid.stl` | 180 x 125 x 3 mm (+4 mm lip) |
 
-Fits a 180 x 180 mm bed or larger (the team station is 175 mm wide, so skip the brim on a 180 mm bed). Previews are in `preview/`.
+Fits a 180 x 180 mm bed or larger (the team station is 179 mm wide, so print it without a brim or skirt on a 180 mm bed). Previews are in `preview/`.
 
 ## What's where
 
@@ -18,7 +18,7 @@ Fits a 180 x 180 mm bed or larger (the team station is 175 mm wide, so skip the 
 - Back: ESP32 USB opening (programming), the UPS board's USB-C opening (charging and wall power) and a 3 mm window for its charge LED.
 - Right side: slide power switch.
 - Lid: a 30 mm team button labelled TEAM (for playing as a team without the player buttons), big team number and "TEAM n" label. Print the lid in the team's colour. `team_button = false` removes the button hole. (`lid_led = true` adds an extra LED hole on the lid.)
-- Inside: 4 tall (23 mm) standoffs for a 70 x 90 mm protoboard carrying the ESP32 DevKitC and ULN2803, with the 18650 holder in rails underneath it; a raised pocket for the USB-C UPS board. The area under the team button is kept clear.
+- Inside: 4 tall (23 mm) standoffs for a 70 x 90 mm protoboard carrying the ESP32 DevKitC, with the 18650 holder in rails underneath it; a raised pocket for the USB-C UPS board. The area under the team button is kept clear.
 
 **Base station**
 - Lid, front to back: Arm / Correct / Wrong / Reset buttons with labels; a row of 4 team lights (5 mm RGB LEDs) numbered 1-4 (`teams` sets the count); the 1.3" OLED window (chamfered, with 4 M2 standoffs underneath for the module), Armed and Locked LEDs to its left and the buzzer grille with a glue-in ring to its right.
@@ -47,7 +47,7 @@ Export: `openscad -D 'part="box"' -o box.stl team_station.scad` and the same wit
 | Board stack | standoff (23 mm station, 5 mm base) + 1.6 mm protoboard + 8.5 mm female header + DevKitC | sets the USB height (`esp_usb_z`: 36 mm station, 18 mm base) |
 | Team button | 30 mm snap-in arcade button, ~33 mm bezel, ~35 mm below the lid | 30 mm hole (`team_btn_hole`; some need 28 mm) |
 | Protoboard | 70 x 90 mm, M2 holes 2 mm in from each corner | standoff positions (M2 self-tap pilot) |
-| RJ45 keystone jack (Cat6) | standard keystone, ~16.5 x 19 mm face, ~32 mm deep behind the panel | 14.8 x 16.3 mm cut-outs at 19 mm pitch, wall thinned to 2.0 mm around each so the latch clicks in (`keystone_cut`, `keystone_panel`) |
+| RJ45 keystone jack (Cat6) | standard keystone, ~30 mm deep behind the panel | 14.9 x 19.2 mm cut-outs at 20 mm pitch, wall thinned to 2.0 mm around each so the latch clicks in (`keystone_cut`, `keystone_panel`) |
 | Player / team lights | PL9823 5 mm RGB LED, pushed in from inside (flange stops it) | 5.1 mm holes; station lights 13 mm above the jacks, base lights 28 mm apart |
 | OLED | 1.3" SH1106 128x64 I2C module, PCB 35.4 x 33.5 mm, M2 holes 30.5 x 28.5 mm, glass centred ~1.5 mm off the PCB centre | 31 x 17 mm window; check `oled_pcb_dy` and `oled_holes` against your module, they vary between sellers |
 | 18650 holder | single cell, ~77 x 21 x 19 mm | retaining rails, fix with double-sided tape |

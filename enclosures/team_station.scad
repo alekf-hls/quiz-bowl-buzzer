@@ -14,19 +14,19 @@ team_label = "TEAM 1";     // debossed on the lid
 team_num   = "1";          // large number on the lid ("" for none)
 
 // ---- Inside cavity ----
-X = 170;  // width (along the jacks)
+X = 174;  // width (along the jacks)
 Y = 113;  // depth (keystone jacks reach ~32 mm into the box)
 Z = 45;   // height, floor to lid underside
 
 // ---- Player jacks ----
-// "keystone": snap-in RJ45 (Cat6) keystone jacks. Cut-out 14.8 x 16.3 mm, wall thinned
+// "keystone": snap-in RJ45 (Cat6) keystone jacks. Cut-out 14.9 x 19.2 mm, wall thinned
 //             to 2.0 mm around it so the latch clicks in; ~32 mm deep behind the wall.
 // "trrs":     3.5 mm TRRS panel jacks with a nut (6.2 mm hole). Set jack_pitch = 14.
 jack_type   = "keystone";
 jacks       = 8;
-jack_pitch  = 19;
+jack_pitch  = 20;
 jack_z      = 14;     // centre height above the floor
-keystone_cut   = [14.8, 16.3];
+keystone_cut   = [14.9, 19.2];
 keystone_panel = 2.0;
 jack_hole   = 6.2;    // TRRS only
 jack_labels = true;   // debossed seat numbers above each light
@@ -39,9 +39,9 @@ label_z    = 37;
 // ---- Team button (30 mm snap-in arcade button, ~33 mm bezel, ~35 mm below the lid) ----
 team_button   = true;
 team_btn_hole = 30;               // some are 28 mm
-team_btn_pos  = [124, 62];        // the area under it is kept clear
+team_btn_pos  = [126, 62];        // the area under it is kept clear
 
-// ---- Carrier protoboard (ESP32 DevKitC + ULN2803 soldered/socketed on it) ----
+// ---- Carrier protoboard (ESP32 DevKitC soldered/socketed on it) ----
 // Sits on tall standoffs with the 18650 holder underneath it.
 pcb_w = 90; pcb_d = 70;           // standard 70 x 90 mm protoboard
 pcb_x = 2;  pcb_y = Y - 1 - pcb_d;
